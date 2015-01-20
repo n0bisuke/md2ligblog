@@ -1,0 +1,16 @@
+{
+  "name": "md2ligblog",
+  "version": "0.0.1",
+  "description": "markdown to html for ligblog syntax by marked.js",
+  "main": "index.js",
+  "dependencies": {
+    "marked": "^0.3.2",
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "n0bisuke",
+  "license": "ISC"
+}
