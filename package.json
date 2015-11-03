@@ -4,6 +4,7 @@
   "description": "markdown to html for ligblog syntax by marked.js",
   "main": "index.js",
   "dependencies": {
+    "coffee-script": "^1.10.0",
     "marked": "^0.3.2",
     "moment": "^2.9.0"
   },
