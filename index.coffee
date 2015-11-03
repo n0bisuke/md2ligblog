@@ -26,8 +26,8 @@ renderer.code = (code, lang, escaped) ->
       type = "css"
     else if langtype is "xml"
       type = "xml"
-    # else if langtype is "coffee"
-    #   type = "coffeescript" q
+    else if langtype is "swift"
+      type = "javascript"
   "\n[#{type}]\n#{code}\n[/#{type}]\n\n"
 
 #image tag
